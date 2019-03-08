@@ -1,0 +1,5 @@
+<view class='container'>
+<view wx:for="{{banners}}" wx:key="id">
+  <text>{{item}}</text>
+</view>
+</view>
